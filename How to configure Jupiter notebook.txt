@@ -1,0 +1,20 @@
+Откройте Anaconda Prompt и запустите jupyter notebook --generate-config
+Файл конфигурации будет сгенерирован C:\Users\username\.jupyter\jupyter_notebook_config.py
+
+Нужно добавить вначале файла следующие строки:
+Путь к браузеру
+c.NotebookApp.browser = u'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
+
+Формат представления даты
+c.Application.log_datefmt = '%d-%m-%Y %H:%M:%S'
+
+Начальная директория при запуске Jupiter notebook
+c.NotebookApp.notebook_dir = 'D:\Projects\python\python-notebook'
+
+Откыть в новом окне браузера
+#c.NotebookApp.open_browser = True
+
+Токен для доступа к серверу
+c.NotebookApp.token = '12345678'
+
+В случае необходимости все настройки закомментированы в сгенерированном файле ("#") 
