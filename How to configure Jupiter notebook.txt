@@ -18,3 +18,7 @@ c.NotebookApp.notebook_dir = 'D:\Projects\python\python-notebook'
 c.NotebookApp.token = '12345678'
 
 В случае необходимости все настройки закомментированы в сгенерированном файле ("#") 
+
+
+
+Чтобы выбрать нужный VENV в anaconda prompt ввести "activate name_env"
